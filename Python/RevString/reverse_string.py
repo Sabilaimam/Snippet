@@ -7,3 +7,15 @@ print(reversed_string)
 
 # Output
 # EDCBA
+
+# Reversing a string without slicing
+
+string="abcde"
+str_rev=""
+for i in string:
+  str_rev=i+str_rev
+print(str_rev)
+
+
+
+# output: edcba
